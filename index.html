@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <div class="date">
+      <label for="day-num">DAY
+        <input type="number" id="day-num" name="day-num" min="1" max="31" placeholder="DD">
+        <p class="warring"></p>
+      </label>
+      <label for="month-num">MONTH
+        <input type="number" id="month-num" name="month-num" placeholder="MM">
+
+        <p class="warring"> </p>
+
+      </label>
+      <label for="year-num">YEAR
+        <input type="number" id="year-num" name="year-num" placeholder="YYYY">
+        <p class="warring"></p>
+      </label>
+    </div>
+    <div class="enter">
+      <hr>
+      <button type="submit" id="enter-btn"><img src="./images/icon-arrow.svg" alt=""></button>
+    </div>
+    <div class="Br-date">
+      <p>
+      <div><span id="br-year">45</span> year</div>
+      <div><span id="br-month">23</span> months
+      </div>
+      <div><span id="br-day">500</span> day</div>
+      </p>
+    </div>
+  </div>
+
+  </div>
+  <script src="./src.js"></script>
+</body>
+
+</html>
